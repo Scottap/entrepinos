@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eco Box Art - Entre Pinos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+   crossorigin=""></script>
+  </head>
+  <body>
+      <section class="hero is-primary is-medium">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <h1>Entre Pinos</h1>
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span>Home</span>
+                <span>Habitaciones</span>
+                <span>Concepto</span>
+                <span>Ser Propietario</span>
+                <span>Contacto</span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <a href="index.html" class="navbar-item is-active">
+                  Home
+                </a>
+                <a href="habitaciones.html" class="navbar-item">
+                  Habitaciones
+                </a>
+                <a href="concepto.html" class="navbar-item">
+                  Concepto
+                </a>
+                <a href="se-propietario.html" class="navbar-item">
+                  Ser Propietario
+                </a>
+                <a href="contacto.html" class="navbar-item">
+                  Contacto
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            Title
+          </h1>
+          <h2 class="subtitle">
+            Subtitle
+          </h2>
+        </div>
+      </div>
+    
+      <!-- Hero footer: will stick at the bottom -->
+      <div class="hero-foot">
+        <nav class="tabs">
+          <div class="container">
+            <ul>
+              <li class="is-active"><a>Overview</a></li>
+              <li><a>Modifiers</a></li>
+              <li><a>Grid</a></li>
+              <li><a>Elements</a></li>
+              <li><a>Components</a></li>
+              <li><a>Layout</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container has-text-centered">
+        <h2 class="title">Concepto Eco</h2>
+        <div class="content">
+          <p>En medio de un paisaje agreste rodeado de pinos, y a pocas cuadras del mar, lo espera Entre Pinos Eco Box Apart. Un complejo de hábitats innovadores y confortables creados a partir de contenedores marítimos reutilizados.
+Concebido para quienes valoran los recursos naturales y el cuidado del planeta, tiene por objetivo brindar el máximo confort minimizando el impacto ambiental, en armonía con el entorno natural en que se emplaza el complejo.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 class="title has-text-centered">
+          Testimonios
+        </h2>
+        <div class="slick">
+          <div>
+            <figure class="image is-64x64">
+              <img src="https://bulma.io/images/placeholders/64x64.png">
+            </figure>
+            <h3 class="is-size-6">
+                Marcela M
+              </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 class="title has-text-centered">
+          Promociones
+        </h2>
+        <div class="columns">
+          <div class="column">
+            <img src="http://via.placeholder.com/640x360" alt="" class="image">
+          </div>
+          <div class="column">
+            <img src="http://via.placeholder.com/640x360" alt="" class="image">
+          </div>
+          <div class="column">
+            <img src="http://via.placeholder.com/640x360" alt="" class="image">
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="mapid"></div>
+    <section class="hero is-medium parallax-window" data-parallax="scroll" data-image-src="assets/images/pexels-photo-414171.jpeg">
+      <div class="hero-body has-text-centered">
+            <h3 class="title has-text-white">
+                UBICADOS EN UN LUGAR ESTRATÉGICO, ENTRE LA BARRA Y LA BRAVA PERO CON TODA LA TRANQUILIDAD DEL BOSQUE
+            </h3>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="title has-text-centered">
+        Contacto
+      </h2>
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <div class="content is-small">
+              <p class="has-text-weight-bold">Direccion</p>
+              <p>Parada 32 Brava</p>
+              <p>Rincón del Indio</p>
+              <p>20100 Punta del Este - Uruguay</p>
+              <p>Email: info@entrepinos.uy</p>
+              <p class="has-text-weight-bold">Teléfonos: </p>
+              <p>+549 11 4446 2278</p>
+              <p>+598 99 929 590</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+            <form>
+              <div class="field">
+                <div class="control">
+                 <input class="input" type="text" placeholder="Nombre">
+               </div>
+              </div>
+               
+               <div class="field">
+                <div class="control">
+                 <input class="input" type="email" placeholder="Correo">
+               </div>
+              </div>
+               
+               <div class="field">
+                <div class="control">
+                 <textarea class="textarea" type="text" placeholder="Mensaje"></textarea>
+               </div>
+              </div>
+               <input type="submit" class="button is-primary" value="Enviar">
+            </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            Powered by SENSE
+          </div>
+          <div class="column has-text-right">
+            <span class="fa fa-facebook"></span>
+            <span class="fa fa-twitter"></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/covervid.min.js"></script>
+    <script type="text/javascript" src="assets/js/parallax.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
