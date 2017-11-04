@@ -1,1 +1,26 @@
+
 #mapid { height: 360px; }
+
+.testimonies {
+  color: #fafafa;
+}
+
+.title {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.testimonies .title {
+  color: #fafafa;
+}
+
+.image.has-image-centered {
+  left: 33%;
+}
+
+.quick {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.ecobox {
+  background: #1a1a1a;
+}

@@ -7,7 +7,7 @@ $(".modal-close").click(function() {
 });
 
 $(document).ready(function(){
-  $('.slick').slick({
+  $('.slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
@@ -24,5 +24,3 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(mymap);
 
 var marker = L.marker([-34.9164446, -54.8776211]).addTo(mymap);
-
-$('.covervid-video').coverVid(1920, 1080);
