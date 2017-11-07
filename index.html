@@ -7,7 +7,7 @@
     <link rel="icon" href="/assets/images/pine.png" type="image/png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
     <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
@@ -73,18 +73,66 @@
     
       <!-- Hero footer: will stick at the bottom -->
       <div class="hero-foot">
-        <nav class="tabs">
-          <div class="container">
-            <ul>
-              <li class="is-active"><a>Overview</a></li>
-              <li><a>Modifiers</a></li>
-              <li><a>Grid</a></li>
-              <li><a>Elements</a></li>
-              <li><a>Components</a></li>
-              <li><a>Layout</a></li>
-            </ul>
+        <form action="" method="get" accept-charset="utf-8">
+          <div class="field is-grouped is-grouped-centered">
+            <div class="control">
+              <label class="label" for="reservation-start">FECHAS:</label>
+            </div>
+            <div class="field has-addons">
+              <div class="control">
+                <input  class="input" type="date" name="reservation-start" id="reservation-start" value="" placeholder="Llegada"/>
+              </div>
+              <div class="control">
+                <input class="input" type="date" name="reservation-end" id="reservation-end" value="" placeholder="Salida"/>
+              </div>
+            </div>
+            <div class="control">
+              <label class="label has-text-right" for="adultos">PERSONAS:</label>
+            </div>
+            <div class="control">
+              <div class="select">
+                <select name="adultos" id="adultos">
+                  <option>
+                    Número de adultos
+                  </option>
+                  <option>1 adulto</option>
+                  <option>2 adultos</option>
+                  <option>3 adultos</option>
+                  <option>4 adultos</option>
+                  <option>5 o más adultos</option>
+                </select>
+              </div>
+            </div>
+            <div class="control">
+              <div class="select">
+                <select name="ninios" id="ninios">
+                  <option>
+                    Número de niños
+                  </option>
+                  <option>Sin niños</option>
+                  <option>1 niño</option>
+                  <option>2 niños</option>
+                  <option>3 niños</option>
+                  <option>4 niños</option>
+                  <option>5 o más niños</option>
+                </select>
+              </div>
+            </div>
+            <div class="control">
+              <div class="select">
+                <select name="habitaciones" id="habitaciones">
+                  <option>
+                    Número de habitaciones
+                  </option>
+                  <option>1 habitación</option>
+                  <option>2 habitaciones</option>
+                  <option>3 o más habitaciones</option>
+                </select>
+              </div>
+            </div>
+            <a class="button is-danger" href="#">Reservar</a>
           </div>
-        </nav>
+        </form>
       </div>
     </section>
     <section class="section parallax-window">
@@ -94,11 +142,12 @@
           <p>En medio de un paisaje agreste rodeado de pinos, y a pocas cuadras del mar, lo espera Entre Pinos Eco Box Apart. Un complejo de hábitats innovadores y confortables creados a partir de contenedores marítimos reutilizados.
 Concebido para quienes valoran los recursos naturales y el cuidado del planeta, tiene por objetivo brindar el máximo confort minimizando el impacto ambiental, en armonía con el entorno natural en que se emplaza el complejo.</p>
         </div>
+        <a class="button is-primary" href="concepto.html">Ver más</a>
       </div>
     </section>
     <section class="section testimonies" data-parallax="scroll" data-image-src="assets/images/testi.jpeg">
       <div class="container">
-        <h2 class="title is-size-1 has-text-centered">
+        <h2 class="pacifico is-size-1 has-text-centered">
           Testimonios
         </h2>
         <div class="slider">
@@ -107,7 +156,7 @@ Concebido para quienes valoran los recursos naturales y el cuidado del planeta, 
               <img src="https://bulma.io/images/placeholders/128x128.png">
             </figure>
             <div class="content has-text-centered has-text-white">
-              <h3 class="has-text-white quick">
+              <h3 class="has-text-white pacifico">
                 Marcela M
               </h3>
               <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
@@ -122,7 +171,7 @@ Concebido para quienes valoran los recursos naturales y el cuidado del planeta, 
               <img src="https://bulma.io/images/placeholders/128x128.png">
             </figure>
             <div class="content has-text-centered has-text-white">
-              <h3 class="has-text-white quick">
+              <h3 class="has-text-white pacifico">
                 Marcela M
               </h3>
               <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
@@ -137,7 +186,7 @@ Concebido para quienes valoran los recursos naturales y el cuidado del planeta, 
               <img src="https://bulma.io/images/placeholders/128x128.png">
             </figure>
             <div class="content has-text-centered has-text-white">
-              <h3 class="has-text-white quick">
+              <h3 class="has-text-white pacifico">
                 Marcela M
               </h3>
               <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
@@ -152,7 +201,7 @@ Concebido para quienes valoran los recursos naturales y el cuidado del planeta, 
               <img src="https://bulma.io/images/placeholders/128x128.png">
             </figure>
             <div class="content has-text-centered has-text-white">
-              <h3 class="has-text-white quick">
+              <h3 class="has-text-white pacifico">
                 Marcela M
               </h3>
               <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
@@ -167,7 +216,7 @@ Concebido para quienes valoran los recursos naturales y el cuidado del planeta, 
               <img src="https://bulma.io/images/placeholders/128x128.png">
             </figure>
             <div class="content has-text-centered has-text-white">
-              <h3 class="has-text-white quick">
+              <h3 class="has-text-white pacifico">
                 Marcela M
               </h3>
               <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
@@ -182,7 +231,7 @@ Concebido para quienes valoran los recursos naturales y el cuidado del planeta, 
               <img src="https://bulma.io/images/placeholders/128x128.png">
             </figure>
             <div class="content has-text-centered has-text-white">
-              <h3 class="has-text-white quick">
+              <h3 class="has-text-white pacifico">
                 Marcela M
               </h3>
               <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
