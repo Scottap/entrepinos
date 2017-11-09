@@ -6,6 +6,17 @@ $(".modal-close").click(function() {
    $(".modal").removeClass("is-active");
 });
 
+$('#video').YTPlayer({
+    fitToBackground: false,
+    videoId: '612lUqn-aOw',
+    ratio: 16 / 9,
+    playerVars: {
+      modestbranding: 0,
+      branding: 0
+    }
+  
+});
+
 $(document).ready(function(){
   $('.slider').slick({
     slidesToShow: 3,

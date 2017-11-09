@@ -26,3 +26,14 @@
 .ecobox {
   background: #1a1a1a;
 }
+
+#video{
+ position: relative;
+ background: transparent;
+}
+
+.ytplayer-container{
+ position: absolute;
+ top: 0;
+ z-index: -1;
+}
