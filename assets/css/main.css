@@ -1,3 +1,6 @@
+body, button, input, select, textarea {
+  font-family: Raleway, sans-serif;
+}
 
 #mapid { height: 360px; }
 
@@ -37,11 +40,19 @@
 #slider-1 {
   max-height: 100%;
   background: url(../images/home/home1.jpg);
+  background-position-y: center;
 }
 
 #slider-2 {
   max-height: 100%;
   background: url(../images/home/home2.jpg);
+  background-position-y: center;
+}
+
+#slider-3 {
+  max-height: 100%;
+  background: url(../images/home/home3.jpg);
+  background-position-y: center;
 }
 
 .footer {
