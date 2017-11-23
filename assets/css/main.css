@@ -36,14 +36,21 @@
 
 #slider-1 {
   max-height: 100%;
-  background-image: url(../images/home/home1.jpg);
+  background: url(../images/home/home1.jpg);
 }
 
 #slider-2 {
   max-height: 100%;
-  background-image: url(../images/home/home2.jpg);
+  background: url(../images/home/home2.jpg);
 }
 
 .footer {
   padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 769px), print {
+.hero.is-medium .hero-body {
+    padding-bottom: 14rem;
+    padding-top: 14rem;
+}
 }
