@@ -33,3 +33,17 @@
  top: 0;
  z-index: -1;
 }
+
+#slider-1 {
+  max-height: 100%;
+  background-image: url(../images/home/home1.jpg);
+}
+
+#slider-2 {
+  max-height: 100%;
+  background-image: url(../images/home/home2.jpg);
+}
+
+.footer {
+  padding-bottom: 3rem;
+}
