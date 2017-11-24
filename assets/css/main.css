@@ -54,11 +54,56 @@ body, button, input, select, textarea {
   background: url(../images/home/home3.jpg);
   background-position-y: center;
 }
+#slider-4 {
+  max-height: 100%;
+  background: url(../images/home/home1.jpg);
+  background-position-y: center;
+}
+
+#slider-5 {
+  max-height: 100%;
+  background: url(../images/home/home2.jpg);
+  background-position-y: center;
+}
+
+#slider-6 {
+  max-height: 100%;
+  background: url(../images/home/home3.jpg);
+  background-position-y: center;
+}
+#slider-7 {
+  max-height: 100%;
+  background: url(../images/home/home1.jpg);
+  background-position-y: center;
+}
+
+#slider-8 {
+  max-height: 100%;
+  background: url(../images/home/home2.jpg);
+  background-position-y: center;
+}
+
+#slider-9 {
+  max-height: 100%;
+  background: url(../images/home/home3.jpg);
+  background-position-y: center;
+}
 
 .footer {
   padding-bottom: 3rem;
 }
 
+.pattern {
+  background: url(../images/header-pattern.jpg);
+}
+
+.eco-pattern {
+  background: url(../images/pattern.png);
+}
+
+.promotion-pattern {
+  background: url(../images/vacation-pattern.png);
+}
 @media screen and (min-width: 769px), print {
 .hero.is-medium .hero-body {
     padding-bottom: 14rem;
