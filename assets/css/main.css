@@ -91,6 +91,8 @@ body, button, input, select, textarea {
 
 .footer {
   padding-bottom: 3rem;
+  background: #279B78;
+  color: #fafafa;
 }
 
 .pattern {
@@ -104,9 +106,25 @@ body, button, input, select, textarea {
 .promotion-pattern {
   background: url(../images/vacation-pattern.png);
 }
+
+.navbar-item img {
+  min-height: 4.75rem;
+}
+
+.resize {
+  width: 128px;
+  height: auto;
+}
 @media screen and (min-width: 769px), print {
 .hero.is-medium .hero-body {
     padding-bottom: 14rem;
     padding-top: 14rem;
+}
+}
+
+
+@media screen and (min-width: 1024px) {
+.navbar {
+  min-height: 4.25rem;
 }
 }
