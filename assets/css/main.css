@@ -88,6 +88,57 @@ body, button, input, select, textarea {
   background: url(../images/home/home3.jpg);
   background-position-y: center;
 }
+#slider-10 {
+  max-height: 100%;
+  background: url(../images/home/home1.jpg);
+  background-position-y: center;
+}
+
+#slider-11 {
+  max-height: 100%;
+  background: url(../images/home/home2.jpg);
+  background-position-y: center;
+}
+
+#slider-12 {
+  max-height: 100%;
+  background: url(../images/home/home3.jpg);
+  background-position-y: center;
+}
+#slider-13 {
+  max-height: 100%;
+  background: url(../images/home/home1.jpg);
+  background-position-y: center;
+}
+
+#slider-14 {
+  max-height: 100%;
+  background: url(../images/home/home2.jpg);
+  background-position-y: center;
+}
+
+#slider-15 {
+  max-height: 100%;
+  background: url(../images/home/home3.jpg);
+  background-position-y: center;
+}
+#slider-16 {
+  max-height: 100%;
+  background: url(../images/home/home1.jpg);
+  background-position-y: center;
+}
+
+#slider-17 {
+  max-height: 100%;
+  background: url(../images/home/home2.jpg);
+  background-position-y: center;
+}
+
+#slider-18 {
+  max-height: 100%;
+  background: url(../images/home/home3.jpg);
+  background-position-y: center;
+}
 
 .footer {
   padding-top: 1.5rem;
