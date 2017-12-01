@@ -16,6 +16,15 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+  $('.owner-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 9000,
+  });
+});
+
+$(document).ready(function(){
   $('.home-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -23,6 +32,25 @@ $(document).ready(function(){
     autoplaySpeed: 3500,
     arrows: false
   });
+});
+
+$('.rooms-slider-slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.rooms-slider'
+});
+$('.rooms-slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.rooms-slider-slider',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 3000
 });
 
 $('#video').YTPlayer({

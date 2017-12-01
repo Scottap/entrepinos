@@ -164,10 +164,14 @@ body, button, input, select, textarea {
 }
 
 @media screen and (min-width: 769px), print {
-.hero.is-medium .hero-body {
+  .hero.is-medium .hero-body {
     padding-bottom: 14rem;
     padding-top: 14rem;
 }
+  .hero.is-medium .hero-body .owner-hero {
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+  }
 }
 
 
@@ -175,4 +179,19 @@ body, button, input, select, textarea {
 .navbar {
   min-height: 4.25rem;
 }
+}
+
+.or-check {
+  padding-left:5px;
+}
+.or-check li {
+  list-style-image: url('../images/habitaciones/checkmark.png');
+}
+
+.center-figure figure{
+  margin: 0 40%;
+}
+
+.invert {
+  filter: invert(100%);
 }
