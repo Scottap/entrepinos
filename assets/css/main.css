@@ -195,3 +195,14 @@ body, button, input, select, textarea {
 .invert {
   filter: invert(100%);
 }
+div.horizontal-widget {
+  margin-left: 40%;
+  padding-bottom: 13px;
+}
+.button {
+  background: initial;
+}
+
+.push div {
+  margin-bottom: 2rem;
+}

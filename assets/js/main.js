@@ -34,6 +34,25 @@ $(document).ready(function(){
   });
 });
 
+$('.spaces-slider-slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.spaces-slider'
+});
+$('.spaces-slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.spaces-slider-slider',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 3000
+});
+
 $('.rooms-slider-slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
