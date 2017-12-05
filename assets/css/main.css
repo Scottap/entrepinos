@@ -206,3 +206,7 @@ div.horizontal-widget {
 .push div {
   margin-bottom: 2rem;
 }
+
+.bgVid {
+  z-index: 0!important;
+}

@@ -71,16 +71,6 @@ $('.rooms-slider').slick({
   autoplaySpeed: 3000
 });
 
-$('#video').YTPlayer({
-    fitToBackground: false,
-    videoId: '612lUqn-aOw',
-    ratio: 16 / 9,
-    playerVars: {
-      modestbranding: 0,
-      branding: 0
-    }
-});
-
 var map = new GMaps({
   div: '#mapid',
   lat: -34.9164446,
