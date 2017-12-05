@@ -223,15 +223,17 @@
             <div class="control">
               <label class="label" for="reservation-start" style="margin-top:6px;">FECHAS:</label>
             </div>
-            <div class="field has-addons">
-              <div class="control">
-                <input  class="input" type="date" name="reservation-start" id="reservation-start" value="" placeholder="Llegada"/>
+            <div class="control">
+                <input class="input" type="hidden" name="date_format" id="date-format" value="d-m-Y" placeholder=""/>
+              </div>
+            <div class="field has-addons"><div class="control">
+                <input class="input" type="date" name="widget_date" id="reservation-start" value="" placeholder="Llegada"/>
               </div>
               <div class="control">
-                <input class="input" type="date" name="reservation-end" id="reservation-end" value="" placeholder="Salida"/>
+                <input class="input" type="date" name="widget_date_to" id="reservation-end" value="" placeholder="Salida"/>
               </div>
             </div>
-            <a class="button is-danger" href="#">Reservar</a>
+            <button type="submit" class="button is-danger">Reservar</button>
           </div>
         </form>
       </div>
