@@ -36,17 +36,21 @@ $(document).ready(function(){
 
 $('.spaces-slider-slider').slick({
   slidesToShow: 1,
+  adaptiveHeight: true,
   slidesToScroll: 1,
   arrows: true,
+  infinite: true,
   fade: true,
   asNavFor: '.spaces-slider'
 });
 $('.spaces-slider').slick({
-  slidesToShow: 3,
+  slidesToShow: 4,
+  slidesToScroll: 1,
   asNavFor: '.spaces-slider-slider',
   dots: true,
   centerMode: true,
   focusOnSelect: true,
+  infinite: true,
   arrows: false,
   autoplay: true,
   autoplaySpeed: 3000

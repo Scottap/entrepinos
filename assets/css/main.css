@@ -37,126 +37,12 @@ body, button, input, select, textarea {
  z-index: -1;
 }
 
-#slider-1 {
-  max-height: 100%;
-  background: url(../images/home/home1.jpg);
-  background-position-y: center;
-}
-
-#slider-2 {
-  max-height: 100%;
-  background: url(../images/home/home2.jpg);
-  background-position-y: center;
-}
-
-#slider-3 {
-  max-height: 100%;
-  background: url(../images/home/home3.jpg);
-  background-position-y: center;
-}
-#slider-4 {
-  max-height: 100%;
-  background: url(../images/home/home1.jpg);
-  background-position-y: center;
-}
-
-#slider-5 {
-  max-height: 100%;
-  background: url(../images/home/home2.jpg);
-  background-position-y: center;
-}
-
-#slider-6 {
-  max-height: 100%;
-  background: url(../images/home/home3.jpg);
-  background-position-y: center;
-}
-#slider-7 {
-  max-height: 100%;
-  background: url(../images/home/home1.jpg);
-  background-position-y: center;
-}
-
-#slider-8 {
-  max-height: 100%;
-  background: url(../images/home/home2.jpg);
-  background-position-y: center;
-}
-
-#slider-9 {
-  max-height: 100%;
-  background: url(../images/home/home3.jpg);
-  background-position-y: center;
-}
-#slider-10 {
-  max-height: 100%;
-  background: url(../images/home/home1.jpg);
-  background-position-y: center;
-}
-
-#slider-11 {
-  max-height: 100%;
-  background: url(../images/home/home2.jpg);
-  background-position-y: center;
-}
-
-#slider-12 {
-  max-height: 100%;
-  background: url(../images/home/home3.jpg);
-  background-position-y: center;
-}
-#slider-13 {
-  max-height: 100%;
-  background: url(../images/home/home1.jpg);
-  background-position-y: center;
-}
-
-#slider-14 {
-  max-height: 100%;
-  background: url(../images/home/home2.jpg);
-  background-position-y: center;
-}
-
-#slider-15 {
-  max-height: 100%;
-  background: url(../images/home/home3.jpg);
-  background-position-y: center;
-}
-#slider-16 {
-  max-height: 100%;
-  background: url(../images/home/home1.jpg);
-  background-position-y: center;
-}
-
-#slider-17 {
-  max-height: 100%;
-  background: url(../images/home/home2.jpg);
-  background-position-y: center;
-}
-
-#slider-18 {
-  max-height: 100%;
-  background: url(../images/home/home3.jpg);
-  background-position-y: center;
-}
 
 .footer {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   background: #279B78;
   color: #fafafa;
-}
-
-.pattern {
-  background: url(../images/header-pattern.jpg);
-}
-
-.eco-pattern {
-  background: url(../images/pattern.png);
-}
-
-.promotion-pattern {
-  background: url(../images/vacation-pattern.png);
 }
 
 .navbar-item img {
@@ -188,8 +74,16 @@ body, button, input, select, textarea {
   list-style-image: url('../images/habitaciones/checkmark.png');
 }
 
+.center-figure .is-half figure {
+  margin: 0 0 6px 41.8%;
+} 
+
+.center-figure .is-one-quarter figure {
+  margin: 0 0 6px 39%;
+}
+
 .center-figure figure{
-  margin: 0 40%;
+  margin: 0 0 6px 36%;
 }
 
 .invert {
