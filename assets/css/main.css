@@ -104,3 +104,23 @@ div.horizontal-widget {
 .bgVid {
   z-index: 0!important;
 }
+
+a[href^="https://www.facebook.com/EntrePinosEcoBox"] {
+  color: white;
+  font-size:1.5em;
+}
+
+a[href^="https://www.instagram.com/entrepinos.eco/"] {
+  color: white;
+  font-size:1.5em;
+}
+
+a[href^="http://sensemkt.com"] {
+  color: white;
+  text-decoration: underline;
+}
+
+a[href^="assets/files/avisolegal.pdf"] {
+  color: white;
+  text-decoration: underline;
+}
