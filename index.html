@@ -29,15 +29,15 @@
         <nav class="navbar">
           <div class="container">
             <div class="navbar-brand">
-              <a class="navbar-item">
-                <img src="assets/images/logo-horizontal.png" alt="" />
+              <a class="navbar-item" href="index.html">
+                <img src="assets/images/logo-horizontal.png" alt="logo" />
               </a>
               <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                <span>Home</span>
-                <span>Habitaciones</span>
-                <span>Concepto</span>
-                <span>Ser Propietario</span>
-                <span>Contacto</span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
               </span>
             </div>
             <div id="navbarMenuHeroA" class="navbar-menu is-uppercase">
@@ -81,13 +81,13 @@
               <label class="label" for="reservation-start" style="margin-top:6px;">FECHAS:</label>
             </div>
             <div class="control">
-                <input class="input" type="hidden" name="date_format" id="date-format" value="d-m-Y" placeholder=""/>
+                <input class="input" type="hidden" name="date_format" id="date-format" value="d/m/Y" />
               </div>
             <div class="field has-addons"><div class="control">
-                <input class="input" type="date" name="widget_date" id="reservation-start" value="" placeholder="Llegada"/>
+                <input class="input" type="text" name="widget_date" id="reservation-start" value="01/01/2018" placeholder="Llegada"/>
               </div>
               <div class="control">
-                <input class="input" type="date" name="widget_date_to" id="reservation-end" value="" placeholder="Salida"/>
+                <input class="input" type="text" name="widget_date_to" id="reservation-end" value="03/01/2018" placeholder="Salida"/>
               </div>
             </div>
             <button type="submit" class="button is-danger">Reservar</button>
@@ -265,16 +265,16 @@ Concebido para quienes valoran los recursos naturales y el cuidado del planeta, 
           </div>
         </div>
         <div class="column">
-            <form>
+            <form action="https://formspree.io/scottap302@gmail.com" method="POST">
               <div class="field">
                 <div class="control">
                  <input class="input" name="name" type="text" placeholder="Nombre">
                </div>
               </div>
-               
+               <input type="hidden" name="_subject" id="_subject" value="¡Nuevo mensaje de contacto!" />
                <div class="field">
                 <div class="control">
-                 <input class="input" name="email" type="email" placeholder="Correo">
+                 <input class="input" name="_replyTo" type="email" placeholder="Correo">
                </div>
               </div>
                
